@@ -27,5 +27,12 @@
 
 
 
+### Terminologies
+ * Cluster : Set of connected machines
+ * node : singe machine (one of the machines that form the cluster) , Node can be either a **Master** or a **Worker** , Master contains `control plane` components , worker contains **kubelet** which communicates with container runtime
+ 
+ * NameSpaces : logical grouping for Kubernetes objects , Any kubernetes resource uses **default** namespace if no other namespace was specified
+ 
+ * pod : Smallest unit in kubernetes , Each pod can contain **1 or more containers**
 
-* NameSpaces : logical grouping for Kubernetes objects , Any kubernetes resource uses **default** namespace if no other namespace was specified
+ 
